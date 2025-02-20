@@ -1,12 +1,36 @@
+.container{
+  max-width: 100% !important;
+}
 /* ------------navbar css */
 .navbar{
-  background-color: #253f87;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 2px gray;
   a{
-    color: white !important;
+    color: rgb(28, 28, 103) !important;
     font-size: 1.2rem111;
   }
 }
 
 .dropdown-menu a{
   color: black !important;
+}
+
+// ------------home page-----------
+.homecontact{
+  height: auto !important;
+  width: 100vw !important;
+  color: white;
+  background-color: rgb(28, 28, 103);
+}
+
+.butn{
+  padding: 5px;
+  border-radius: 50px;
+  background-color: white;
+  border: 3px solid rgb(28, 28, 103);
+  max-width: 200px;
+}
+
+.parentheight{
+height:inherit !important;
 }
